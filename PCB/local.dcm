@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Capacitor
+D Capacitor
+$ENDCMP
+#
+$CMP Capacitor-Pol
+D Polarized Capacitor
+$ENDCMP
+#
+$CMP Diode
+D Diode
+$ENDCMP
+#
+$CMP LED_RGB
+D Red, Green, Blue (RGB) 630nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.9V Red, 3.3V Green, 3.3V Blue Radial - 4 Leads
+K RGB LED
+F http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf
+$ENDCMP
+#
+$CMP LED_RGB_Common_Anode
+D Red, Green, Blue (RGB) 625nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.2V Red, 3.3V Green, 3.3V Blue Radial
+K RGB LED
+F https://media.digikey.com/pdf/Data%20Sheets/Kingbright%20PDFs/WP154A4SEJ3VBDZGW-CA_Ver.1A_Jul-24-13.pdf
+$ENDCMP
+#
+$CMP LED_RGB_Common_Cathode
+D Red, Green, Blue (RGB) 630nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.9V Red, 3.3V Green, 3.3V Blue Radial - 4 Leads
+K RGB LED
+F http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf
+$ENDCMP
+#
+$CMP Resistor
+D Resistor
+$ENDCMP
+#
+$CMP TLC5955DCA
+D LED Driver IC 48 Output Linear Analog Dimming 30mA 56-HTSSOP
+K Shift Register
+F http://www.ti.com/lit/ds/symlink/tlc5955.pdf
+$ENDCMP
+#
+#End Doc Library

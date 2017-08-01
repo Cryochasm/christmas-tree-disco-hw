@@ -1,0 +1,16 @@
+(module Test_Point_0.432 (layer F.Cu) (tedit 5925D2DC)
+  (attr virtual)
+  (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (fp_text value Test_Point_0.432 (at 0 -0.85) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.686 0.686) (drill 0.432) (layers *.Cu *.Mask F.SilkS)
+    (solder_mask_margin 0.07) (solder_paste_margin_ratio -0.05) (clearance 0.125))
+  (model smd/smd_transistors/sot23.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
