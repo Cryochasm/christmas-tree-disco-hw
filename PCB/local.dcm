@@ -8,6 +8,12 @@ $CMP Capacitor-Pol
 D Polarized Capacitor
 $ENDCMP
 #
+$CMP DEV_KIT_EK-TM4C123GXL
+D Development Boards & Kits - ARM TIVA LaunchPAD
+K ARM Cortex M4F
+F http://www.ti.com/lit/ds/spms376e/spms376e.pdf
+$ENDCMP
+#
 $CMP Diode
 D Diode
 $ENDCMP
