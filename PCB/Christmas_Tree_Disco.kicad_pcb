@@ -1,11 +1,11 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-1f6854f~59~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-34abef3~59~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
     (drawings 128)
     (tracks 0)
     (zones 0)
-    (modules 38)
+    (modules 35)
     (nets 95)
   )
 
@@ -31,7 +31,7 @@
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
-    (43 Eco2.User user)
+    (43 Eco2.User user hide)
     (44 Edge.Cuts user)
     (45 Margin user)
     (46 B.CrtYd user)
@@ -293,7 +293,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B77A0)
-    (at 29.820001 101.470001)
+    (at 99.162001 63.243001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/5980A64F/598428D6)
@@ -331,7 +331,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B77B2)
-    (at 97.79 151.13)
+    (at 67.818 143.002)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59825578/598428D6)
@@ -369,7 +369,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B77C4)
-    (at 73.000001 158.280001)
+    (at 97.638001 148.247001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/5981626D/598428D6)
@@ -407,7 +407,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B77D6)
-    (at 81.260001 192.260001)
+    (at 81.133001 191.752001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59817074/598428D6)
@@ -445,7 +445,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B77E8)
-    (at 44.430001 77.030001)
+    (at 112.883001 108.399001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59813FE2/598428D6)
@@ -483,7 +483,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B77FA)
-    (at 67.290001 139.880001)
+    (at 83.165001 101.907001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59815F66/598428D6)
@@ -521,7 +521,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B780C)
-    (at 50.570001 182.570001)
+    (at 50.570001 182.697001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59817078/598428D6)
@@ -559,7 +559,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B781E)
-    (at 113.640001 195.420001)
+    (at 113.259001 194.658001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/5981707C/598428D6)
@@ -597,7 +597,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B7830)
-    (at 113.440001 27.630001)
+    (at 182.499 97.409 270)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59817080/598428D6)
@@ -605,10 +605,10 @@
     (solder_paste_ratio -0.05)
     (clearance 0.3)
     (attr smd)
-    (fp_text reference C8 (at 3.2 0) (layer F.SilkS)
+    (fp_text reference C8 (at 3.2 0 270) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (fp_text value Capacitor (at 0 0.8) (layer F.Fab)
+    (fp_text value Capacitor (at 0 0.8 270) (layer F.Fab)
       (effects (font (size 0.127 0.127) (thickness 0.01)))
     )
     (fp_line (start -1.425 0.95) (end 1.425 0.95) (layer F.CrtYd) (width 0.12))
@@ -623,9 +623,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer F.Fab) (width 0.12))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer F.Fab) (width 0.12))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer F.Fab) (width 0.12))
-    (pad 1 smd roundrect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.001)
+    (pad 1 smd roundrect (at -0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.001)
       (net 2 "/Top Sheet/RGB LED Array/5V"))
-    (pad 2 smd roundrect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.001)
+    (pad 2 smd roundrect (at 0.95 0 270) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.001)
       (net 1 "/Top Sheet/RGB LED Array/GND"))
     (model ${KIPRJMOD}/local.pretty/packages3d/R_0805.wrl
       (at (xyz 0 0 0))
@@ -635,7 +635,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B7842)
-    (at 143.270001 102.560001)
+    (at 127.395001 63.063001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/598152C6/598428D6)
@@ -673,7 +673,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B7854)
-    (at 166.980001 159.240001)
+    (at 128.753001 148.318001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59815DA6/598428D6)
@@ -711,7 +711,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B7866)
-    (at 146.030001 192.570001)
+    (at 145.268001 191.935001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/598171EF/598428D6)
@@ -749,7 +749,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B7878)
-    (at 126.980001 63.340001)
+    (at 113.137001 28.288001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59837C41/598428D6)
@@ -787,7 +787,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B788A)
-    (at 188.570001 110.670001)
+    (at 143.231001 102.161001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/598152CA/598428D6)
@@ -825,7 +825,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B789C)
-    (at 176.510001 182.750001)
+    (at 158.730001 140.332001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59815DA2/598428D6)
@@ -863,7 +863,7 @@
   )
 
   (module local:SMD-0805 (layer F.Cu) (tedit 598149B2) (tstamp 598B78AE)
-    (at 159.150001 140.660001)
+    (at 176.041001 182.824001)
     (descr https://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf)
     (tags "0805 2012")
     (path /59809489/5980966C/59815DAA/598428D6)
@@ -931,7 +931,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B78CC)
-    (at 24.903095 104.9275)
+    (at 94.245095 66.7005)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/5980A64F/5980D97F)
     (solder_mask_margin 0.0035)
@@ -962,7 +962,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B78D7)
-    (at 92.653095 151.7375)
+    (at 62.681095 143.764)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59825578/5980D97F)
     (solder_mask_margin 0.0035)
@@ -993,7 +993,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B78E2)
-    (at 68.083095 161.7375)
+    (at 92.721095 151.7045)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/5981626D/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1024,7 +1024,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B78ED)
-    (at 76.343095 195.7175)
+    (at 76.327 195.326)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59817074/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1055,7 +1055,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B78F8)
-    (at 39.513095 80.4875)
+    (at 108.204 111.506)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59813FE2/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1086,7 +1086,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B7903)
-    (at 62.373095 143.3375)
+    (at 78.248095 105.664)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59815F66/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1117,7 +1117,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B790E)
-    (at 45.653095 186.0275)
+    (at 45.466 186.182)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59817078/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1148,7 +1148,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B7919)
-    (at 108.723095 198.8775)
+    (at 108.342095 198.1155)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/5981707C/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1179,28 +1179,28 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B7924)
-    (at 108.523095 31.0875)
+    (at 183.134 91.948 90)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59817080/5980D97F)
     (solder_mask_margin 0.0035)
     (solder_paste_ratio -0.1)
     (clearance 0.07)
-    (fp_text reference D8 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference D8 (at -3.175 -2.921 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "RGB LED" (at 0 3.9) (layer F.Fab)
+    (fp_text value "RGB LED" (at 0 3.9 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 0 0) (end 1.6 -2.5) (angle 295) (layer F.Fab) (width 0.12))
     (fp_line (start -1.6 -2.5) (end 1.6 -2.5) (layer F.Fab) (width 0.12))
     (fp_circle (center 0 0) (end 2.5 0) (layer F.Fab) (width 0.12))
-    (pad 4 thru_hole circle (at 0 1.905) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask)
+    (pad 4 thru_hole circle (at 0 1.905 90) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask)
       (net 27 "/Top Sheet/RGB LED Array/RGB08_2"))
-    (pad 3 thru_hole circle (at 0 0.635) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask)
+    (pad 3 thru_hole circle (at 0 0.635 90) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask)
       (net 28 "/Top Sheet/RGB LED Array/RGB08_0"))
-    (pad 2 thru_hole circle (at 0 -0.635) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 -0.635 90) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "/Top Sheet/RGB LED Array/5V"))
-    (pad 1 thru_hole roundrect (at 0 -1.905) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask)(roundrect_rratio 0.25)
+    (pad 1 thru_hole roundrect (at 0 -1.905 90) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask)(roundrect_rratio 0.25)
       (net 29 "/Top Sheet/RGB LED Array/RGB08_1"))
     (model :local3d:WP154A4.STEP
       (at (xyz 0 0 0))
@@ -1210,7 +1210,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B792F)
-    (at 138.353095 106.0175)
+    (at 122.478095 66.5205)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/598152C6/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1241,7 +1241,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B793A)
-    (at 162.063095 162.6975)
+    (at 123.836095 151.7755)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59815DA6/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1272,7 +1272,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B7945)
-    (at 141.113095 196.0275)
+    (at 140.351095 195.3925)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/598171EF/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1303,7 +1303,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B7950)
-    (at 122.063095 66.7975)
+    (at 108.220095 31.7455)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59837C41/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1334,7 +1334,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B795B)
-    (at 183.653095 114.1275)
+    (at 138.314095 105.6185)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/598152CA/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1365,7 +1365,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B7966)
-    (at 171.593095 186.2075)
+    (at 153.813095 143.7895)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59815DA2/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1396,7 +1396,7 @@
   )
 
   (module local:T-1_5mm (layer F.Cu) (tedit 59812F38) (tstamp 598B7971)
-    (at 154.233095 144.1175)
+    (at 171.124095 186.2815)
     (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
     (path /59809489/5980966C/59815DAA/5980D97F)
     (solder_mask_margin 0.0035)
@@ -1426,59 +1426,8 @@
     )
   )
 
-  (module local:Fiducial_Front_Layer (layer F.Cu) (tedit 58F7805B) (tstamp 598B7976)
-    (at 329.369285 181.4875)
-    (path /59809489/59822B9A)
-    (solder_mask_margin 0.001)
-    (solder_paste_margin -0.001)
-    (clearance 0.001)
-    (attr virtual)
-    (fp_text reference FID1 (at 0 -2.3) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value Fiducial (at 0 2.3) (layer F.Fab) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad ~ connect circle (at 0 0) (size 1 1) (layers F.Cu F.Mask)
-      (solder_mask_margin 1) (solder_paste_margin_ratio -0.5) (clearance 1.14))
-  )
-
-  (module local:Fiducial_Front_Layer (layer F.Cu) (tedit 58F7805B) (tstamp 598B797B)
-    (at 324.799285 181.4875)
-    (path /59809489/59822A8A)
-    (solder_mask_margin 0.001)
-    (solder_paste_margin -0.001)
-    (clearance 0.001)
-    (attr virtual)
-    (fp_text reference FID2 (at 0 -2.3) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value Fiducial (at 0 2.3) (layer F.Fab) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad ~ connect circle (at 0 0) (size 1 1) (layers F.Cu F.Mask)
-      (solder_mask_margin 1) (solder_paste_margin_ratio -0.5) (clearance 1.14))
-  )
-
-  (module local:Fiducial_Front_Layer (layer F.Cu) (tedit 58F7805B) (tstamp 598B7980)
-    (at 320.229285 181.4875)
-    (path /59809489/598229D8)
-    (solder_mask_margin 0.001)
-    (solder_paste_margin -0.001)
-    (clearance 0.001)
-    (attr virtual)
-    (fp_text reference FID3 (at 0 -2.3) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value Fiducial (at 0 2.3) (layer F.Fab) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad ~ connect circle (at 0 0) (size 1 1) (layers F.Cu F.Mask)
-      (solder_mask_margin 1) (solder_paste_margin_ratio -0.5) (clearance 1.14))
-  )
-
   (module local:DEV_KIT_EK-TM4C123GXL (layer F.Cu) (tedit 59812655) (tstamp 598B79E5)
-    (at 85.09 162.56)
+    (at 86.614 165.227)
     (path /59809489/598094B7/59812138)
     (attr virtual)
     (fp_text reference U1 (at 1.27 -2.54) (layer F.SilkS)

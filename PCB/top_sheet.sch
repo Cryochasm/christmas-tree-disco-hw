@@ -5,7 +5,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 20
+Sheet 2 19
 Title "Christmas Tree Disco"
 Date "2017-08-01"
 Rev "01"

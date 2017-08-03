@@ -5,7 +5,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 20
+Sheet 4 19
 Title "Christmas Tree Disco"
 Date "2017-08-01"
 Rev "01"
@@ -132,14 +132,6 @@ F0 "RGB 07" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I R 3100 4600 50 
 F3 "~~POWER[0..1]" I L 1900 4600 50 
-$EndSheet
-$Sheet
-S 7800 1000 1200 200 
-U 59817080
-F0 "RGB 08" 50
-F1 "rgb_led.sch" 50
-F2 "~~RGB[0..2]" I L 7800 1100 50 
-F3 "~~POWER[0..1]" I R 9000 1100 50 
 $EndSheet
 Wire Bus Line
 	4000 1900 4000 2100
@@ -320,12 +312,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 1900 6700 1900
 Wire Wire Line
-	6100 1400 6700 1400
-Wire Wire Line
-	6100 1500 6700 1500
-Wire Wire Line
-	6100 1600 6700 1600
-Wire Wire Line
 	6100 2000 6700 2000
 Wire Wire Line
 	6100 2100 6700 2100
@@ -361,12 +347,6 @@ Wire Wire Line
 	6100 3600 6700 3600
 Wire Wire Line
 	6100 3700 6700 3700
-Entry Wire Line
-	6700 1400 6800 1500
-Entry Wire Line
-	6700 1500 6800 1600
-Entry Wire Line
-	6700 1600 6800 1700
 Entry Wire Line
 	6700 1700 6800 1800
 Entry Wire Line
@@ -410,8 +390,6 @@ Entry Wire Line
 Entry Wire Line
 	6700 3700 6800 3800
 Wire Bus Line
-	6800 1100 6800 1700
-Wire Bus Line
 	6800 1800 6800 2000
 Wire Bus Line
 	6800 2100 6800 2300
@@ -425,8 +403,6 @@ Wire Bus Line
 	6800 3300 6800 3500
 Wire Bus Line
 	6800 3600 6800 4600
-Wire Bus Line
-	7800 1100 6800 1100
 $Sheet
 S 7800 1500 1200 200 
 U 59837C41
@@ -513,12 +489,6 @@ Wire Bus Line
 	7600 4100 7800 4100
 Wire Bus Line
 	6800 4600 7800 4600
-Text Label 6200 1400 0    50   ~ 0
-RGB08_0
-Text Label 6200 1500 0    50   ~ 0
-RGB08_1
-Text Label 6200 1600 0    50   ~ 0
-RGB08_2
 Text Label 6200 1700 0    50   ~ 0
 RGB12_0
 Text Label 6200 1800 0    50   ~ 0
@@ -561,8 +531,6 @@ Text Label 6200 3600 0    50   ~ 0
 RGB11_1
 Text Label 6200 3700 0    50   ~ 0
 RGB11_2
-Text Label 7100 1100 0    50   ~ 0
-RGB08_[0..2]
 Text Label 7100 1600 0    50   ~ 0
 RGB12_[0..2]
 Text Label 7100 2100 0    50   ~ 0
@@ -737,8 +705,6 @@ Wire Bus Line
 	1900 1100 1800 1100
 Text Label 1800 1100 2    50   ~ 0
 ~~POWER[0..1]
-Text Label 9100 1100 0    50   ~ 0
-~~POWER[0..1]
 Text Label 9100 1600 0    50   ~ 0
 ~~POWER[0..1]
 Text Label 9100 2100 0    50   ~ 0
@@ -767,6 +733,13 @@ Wire Bus Line
 	9000 2100 9100 2100
 Wire Bus Line
 	9000 1600 9100 1600
-Wire Bus Line
-	9000 1100 9100 1100
+Wire Wire Line
+	6100 1400 6200 1400
+Wire Wire Line
+	6100 1500 6200 1500
+Wire Wire Line
+	6100 1600 6200 1600
+NoConn ~ 6200 1400
+NoConn ~ 6200 1500
+NoConn ~ 6200 1600
 $EndSCHEMATC
