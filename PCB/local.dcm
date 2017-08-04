@@ -18,6 +18,10 @@ $CMP Diode
 D Diode
 $ENDCMP
 #
+$CMP Generic
+D Generic item to be added to BOM
+$ENDCMP
+#
 $CMP LED_RGB
 D Red, Green, Blue (RGB) 630nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.9V Red, 3.3V Green, 3.3V Blue Radial - 4 Leads
 K RGB LED
@@ -34,6 +38,11 @@ $CMP LED_RGB_Common_Cathode
 D Red, Green, Blue (RGB) 630nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.9V Red, 3.3V Green, 3.3V Blue Radial - 4 Leads
 K RGB LED
 F http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf
+$ENDCMP
+#
+$CMP MC14504B
+D Voltage Level Translator Unidirectional Circuit 6 Channel 16-SOIC
+F http://www.onsemi.com/pub/Collateral/MC14504B-D.PDF
 $ENDCMP
 #
 $CMP Resistor

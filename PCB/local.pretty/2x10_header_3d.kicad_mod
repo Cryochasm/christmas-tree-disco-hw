@@ -1,0 +1,17 @@
+(module 2x10_header_3d (layer F.Cu) (tedit 5984D21A)
+  (fp_text reference REF** (at 0 0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 2x10_header_3d (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -2.54 -12.7) (end 2.54 -12.7) (layer F.Fab) (width 0.12))
+  (fp_line (start 2.54 -12.7) (end 2.54 12.7) (layer F.Fab) (width 0.12))
+  (fp_line (start 2.54 12.7) (end -2.54 12.7) (layer F.Fab) (width 0.12))
+  (fp_line (start -2.54 12.7) (end -2.54 -12.7) (layer F.Fab) (width 0.12))
+  (model ${KIPRJMOD}/local.pretty/packages3d/015912200.stp
+    (at (xyz 0 0 0.09842519685039371))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+)
