@@ -23,4 +23,6 @@ F1 "top_sheet.sch" 50
 $EndSheet
 Text Notes 800  1100 0    200  Italic 40
 Christmas Tree Disco
+Text Notes 1000 1400 0    50   ~ 0
+Revisions:
 $EndSCHEMATC

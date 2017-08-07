@@ -22,12 +22,6 @@ $CMP Generic
 D Generic item to be added to BOM
 $ENDCMP
 #
-$CMP LED_RGB
-D Red, Green, Blue (RGB) 630nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.9V Red, 3.3V Green, 3.3V Blue Radial - 4 Leads
-K RGB LED
-F http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf
-$ENDCMP
-#
 $CMP LED_RGB_Common_Anode
 D Red, Green, Blue (RGB) 625nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.2V Red, 3.3V Green, 3.3V Blue Radial
 K RGB LED
@@ -40,19 +34,45 @@ K RGB LED
 F http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf
 $ENDCMP
 #
+$CMP LM1085-5.0
+D Linear Voltage Regulator IC Positive Fixed Output 5V 3A DDPAK/TO-263-3
+K LDO
+$ENDCMP
+#
 $CMP MC14504B
 D Voltage Level Translator Unidirectional Circuit 6 Channel 16-SOIC
 F http://www.onsemi.com/pub/Collateral/MC14504B-D.PDF
+$ENDCMP
+#
+$CMP PJ-006B-SMT
+D Power Barrel Connector Jack 2.50mm ID (0.098"), 5.50mm OD (0.217") Surface Mount
+K Power Jack
 $ENDCMP
 #
 $CMP Resistor
 D Resistor
 $ENDCMP
 #
+$CMP Schottky
+D Diode
+$ENDCMP
+#
 $CMP TLC5955DCA
 D LED Driver IC 48 Output Linear Analog Dimming 30mA 56-HTSSOP
 K Shift Register
 F http://www.ti.com/lit/ds/symlink/tlc5955.pdf
+$ENDCMP
+#
+$CMP TVS
+D Diode
+$ENDCMP
+#
+$CMP TVS-Bidirectional
+D Diode
+$ENDCMP
+#
+$CMP Zener
+D Diode
 $ENDCMP
 #
 #End Doc Library

@@ -1,4 +1,4 @@
-(module T-1_5mm (layer F.Cu) (tedit 59812F38)
+(module T-1_5mm (layer F.Cu) (tedit 5987A3A4)
   (descr http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGW.pdf)
   (solder_mask_margin 0.0035)
   (solder_paste_ratio -0.1)
@@ -6,7 +6,7 @@
   (fp_text reference REF** (at 0 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value T-1_5mm (at 0 3.9) (layer F.Fab)
+  (fp_text value T-1_5mm (at 0 3.9) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 2.5 0) (layer F.Fab) (width 0.12))
@@ -16,9 +16,9 @@
   (pad 2 thru_hole circle (at 0 -0.635) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0 0.635) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 0 1.905) (size 1.1 1.1) (drill 0.8) (layers *.Cu *.Mask))
-  (model :local3d:WP154A4.STEP
-    (at (xyz 0 0 0))
+  (model ${KIPRJMOD}/local.pretty/packages3d/WP154A4.STEP
+    (at (xyz 0 0 -0.075))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
+    (rotate (xyz 90 0 -90))
   )
 )

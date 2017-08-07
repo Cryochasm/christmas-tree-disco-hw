@@ -140,41 +140,239 @@ $EndComp
 $Comp
 L MC14504B U301
 U 1 1 5984BDBB
-P 2000 2400
-F 0 "U301" H 2000 2965 50  0000 C CNN
-F 1 "MC14504B" H 2000 2874 50  0000 C CNN
-F 2 "local:SOIC-16" H 1900 2900 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MC14504B-D.PDF" H 2000 3100 50  0001 C CNN
-F 4 "MC14504B" H 2000 3400 50  0001 C CNN "MPN"
-F 5 "Voltage Level Translator Unidirectional Circuit 6 Channel 16-SOIC" H 2000 3200 50  0001 C CNN "Description"
-F 6 "Yes" H 2000 3300 50  0001 C CNN "Included in BOM"
-	1    2000 2400
+P 6300 5300
+F 0 "U301" H 6300 5865 50  0000 C CNN
+F 1 "MC14504B" H 6300 5774 50  0000 C CNN
+F 2 "local:SOIC-16" H 6200 5800 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14504B-D.PDF" H 6300 6000 50  0001 C CNN
+F 4 "MC14504B" H 6300 6300 50  0001 C CNN "MPN"
+F 5 "Voltage Level Translator Unidirectional Circuit 6 Channel 16-SOIC" H 6300 6100 50  0001 C CNN "Description"
+F 6 "Yes" H 6300 6200 50  0001 C CNN "Included in BOM"
+	1    6300 5300
+	1    0    0    -1  
+$EndComp
+Text Label 6800 4400 1    50   ~ 0
+3V3
+Text Label 5700 5100 2    50   ~ 0
+DATA
+Text Label 5700 5300 2    50   ~ 0
+SCLK
+Text Label 5700 5500 2    50   ~ 0
+LAT
+Text Label 6900 5600 0    50   ~ 0
+GSCLK
+Text Label 6900 5500 0    50   ~ 0
+ERROR_RD
+Wire Wire Line
+	5800 5000 5900 5000
+Wire Wire Line
+	5800 4400 5800 5000
+Text Label 5800 4400 1    50   ~ 0
+5V
+Wire Wire Line
+	5900 5700 5800 5700
+Wire Wire Line
+	5800 5700 5800 5800
+Text Label 5800 5800 3    50   ~ 0
+GND
+Wire Wire Line
+	5700 5100 5900 5100
+Wire Wire Line
+	5700 5300 5900 5300
+Wire Wire Line
+	5700 5500 5900 5500
+Wire Wire Line
+	6900 5500 6700 5500
+Wire Wire Line
+	6900 5600 6700 5600
+Text Label 3600 2100 2    50   ~ 0
+3V3
+Wire Wire Line
+	3800 2100 3600 2100
+Wire Wire Line
+	6800 5000 6700 5000
+Wire Wire Line
+	6800 4400 6800 5000
+Wire Wire Line
+	6700 5100 6800 5100
+Wire Wire Line
+	6700 5200 6800 5200
+Wire Wire Line
+	6700 5400 7400 5400
+Wire Wire Line
+	7200 3000 7400 3000
+Wire Wire Line
+	7400 3000 7400 5400
+NoConn ~ 6800 5100
+NoConn ~ 6800 5200
+Wire Wire Line
+	6500 3300 6500 3400
+Wire Wire Line
+	6500 3400 7500 3400
+Wire Wire Line
+	7500 3400 7500 5700
+Wire Wire Line
+	7500 5700 6700 5700
+Wire Wire Line
+	5900 5200 5500 5200
+Wire Wire Line
+	5500 5200 5500 4200
+Wire Wire Line
+	5500 4200 6400 4200
+Wire Wire Line
+	6400 4200 6400 3300
+Wire Wire Line
+	5900 5400 5400 5400
+Wire Wire Line
+	5400 5400 5400 4100
+Wire Wire Line
+	5400 4100 6300 4100
+Wire Wire Line
+	6300 4100 6300 3300
+Wire Wire Line
+	5900 5600 5300 5600
+Wire Wire Line
+	5300 5600 5300 4000
+Wire Wire Line
+	5300 4000 6200 4000
+Wire Wire Line
+	6200 4000 6200 3300
+Wire Wire Line
+	3800 2200 3700 2200
+Wire Wire Line
+	3800 2300 3700 2300
+Wire Wire Line
+	3800 2400 3700 2400
+Wire Wire Line
+	3800 2500 3700 2500
+Wire Wire Line
+	3800 2600 3700 2600
+Wire Wire Line
+	3800 2700 3700 2700
+Wire Wire Line
+	3800 2800 3700 2800
+Wire Wire Line
+	3800 2900 3700 2900
+Wire Wire Line
+	3800 3000 3700 3000
+NoConn ~ 3700 2200
+NoConn ~ 3700 2300
+NoConn ~ 3700 2400
+NoConn ~ 3700 2500
+NoConn ~ 3700 2600
+NoConn ~ 3700 2700
+NoConn ~ 3700 2800
+NoConn ~ 3700 2900
+NoConn ~ 3700 3000
+NoConn ~ 7300 2200
+NoConn ~ 7300 2300
+NoConn ~ 7300 2400
+NoConn ~ 7300 2500
+NoConn ~ 7300 2600
+NoConn ~ 7300 2700
+NoConn ~ 7300 2800
+NoConn ~ 7300 2900
+Wire Wire Line
+	7200 2200 7300 2200
+Wire Wire Line
+	7200 2300 7300 2300
+Wire Wire Line
+	7200 2400 7300 2400
+Wire Wire Line
+	7200 2500 7300 2500
+Wire Wire Line
+	7200 2600 7300 2600
+Wire Wire Line
+	7200 2700 7300 2700
+Wire Wire Line
+	7200 2800 7300 2800
+Wire Wire Line
+	7200 2900 7300 2900
+Wire Wire Line
+	5600 3300 5600 3400
+Wire Wire Line
+	5700 3300 5700 3400
+Wire Wire Line
+	5800 3300 5800 3400
+Wire Wire Line
+	5900 3300 5900 3400
+Wire Wire Line
+	6000 3300 6000 3400
+Wire Wire Line
+	6100 3300 6100 3400
+Wire Wire Line
+	4500 3300 4500 3400
+Wire Wire Line
+	4600 3300 4600 3400
+Wire Wire Line
+	4700 3300 4700 3400
+Wire Wire Line
+	4800 3300 4800 3400
+Wire Wire Line
+	4900 3300 4900 3400
+Wire Wire Line
+	5000 3300 5000 3400
+Wire Wire Line
+	5100 3300 5100 3400
+Wire Wire Line
+	5200 3300 5200 3400
+NoConn ~ 4500 3400
+NoConn ~ 4600 3400
+NoConn ~ 4700 3400
+NoConn ~ 4800 3400
+NoConn ~ 4900 3400
+NoConn ~ 5000 3400
+NoConn ~ 5100 3400
+NoConn ~ 5200 3400
+NoConn ~ 5600 3400
+NoConn ~ 5700 3400
+NoConn ~ 5800 3400
+NoConn ~ 5900 3400
+NoConn ~ 6000 3400
+NoConn ~ 6100 3400
+Wire Wire Line
+	6700 5300 6900 5300
+Text Label 6900 5300 0    50   ~ 0
+GND
+$Comp
+L Capacitor C19
+U 1 1 598762EF
+P 6600 4600
+F 0 "C19" V 6554 4668 50  0000 L CNN
+F 1 "Capacitor" V 6645 4668 50  0000 L CNN
+F 2 "local:SMD-0805" H 6600 4600 60  0001 C CNN
+F 3 "" H 6600 4600 60  0001 C CNN
+F 4 "?" H 6600 4600 60  0001 C CNN "MPN"
+F 5 "?" H 6600 4600 60  0001 C CNN "Description"
+F 6 "Yes" H 6600 4600 60  0001 C CNN "Included in BOM"
+	1    6600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitor C18
+U 1 1 59876312
+P 6000 4600
+F 0 "C18" V 5954 4668 50  0000 L CNN
+F 1 "Capacitor" V 6045 4668 50  0000 L CNN
+F 2 "local:SMD-0805" H 6000 4600 60  0001 C CNN
+F 3 "" H 6000 4600 60  0001 C CNN
+F 4 "?" H 6000 4600 60  0001 C CNN "MPN"
+F 5 "?" H 6000 4600 60  0001 C CNN "Description"
+F 6 "Yes" H 6000 4600 60  0001 C CNN "Included in BOM"
+	1    6000 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 2100 2400 2100
-Text Label 2900 2100 0    50   ~ 0
-3V3
-Text Label 900  2300 0    50   ~ 0
-DATA
-Text Label 900  2400 0    50   ~ 0
-SCLK
-Text Label 900  2500 0    50   ~ 0
-LAT
-Text Label 900  2600 0    50   ~ 0
-GSCLK
-Text Label 900  2700 0    50   ~ 0
-ERROR_RD
+	5900 4600 5800 4600
+Connection ~ 5800 4600
 Wire Wire Line
-	1600 2100 1500 2100
+	6100 4600 6500 4600
 Wire Wire Line
-	1500 2100 1500 2000
-Text Label 1500 2000 1    50   ~ 0
-5V
+	6700 4600 6800 4600
+Connection ~ 6800 4600
 Wire Wire Line
-	1600 2800 1500 2800
-Wire Wire Line
-	1500 2800 1500 2900
-Text Label 1500 2900 3    50   ~ 0
+	6300 4600 6300 4500
+Connection ~ 6300 4600
+Text Label 6300 4500 1    50   ~ 0
 GND
 $EndSCHEMATC
