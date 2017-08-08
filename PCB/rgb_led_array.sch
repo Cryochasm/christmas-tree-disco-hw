@@ -545,20 +545,6 @@ Text Label 7100 3500 0    50   ~ 0
 RGB15_[0..2]
 Text Label 7100 4600 0    50   ~ 0
 RGB11_[0..2]
-$Comp
-L Capacitor-Pol C16
-U 1 1 59833E85
-P 6600 800
-F 0 "C16" V 6600 868 50  0000 L CNN
-F 1 "Capacitor-Pol" H 6600 960 50  0001 C CNN
-F 2 "local:SMD-POL-1206" H 6600 800 60  0001 C CNN
-F 3 "" H 6600 800 60  0001 C CNN
-F 4 "?" H 6600 800 60  0001 C CNN "MPN"
-F 5 "?" H 6600 800 60  0001 C CNN "Description"
-F 6 "Yes" H 6600 800 60  0001 C CNN "Included in BOM"
-	1    6600 800 
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6600 1300 6100 1300
 Wire Wire Line
@@ -742,4 +728,18 @@ Wire Wire Line
 NoConn ~ 6200 1400
 NoConn ~ 6200 1500
 NoConn ~ 6200 1600
+$Comp
+L Capacitor-Pol C16
+U 1 1 59893C97
+P 6600 800
+F 0 "C16" V 6500 1100 50  0000 R CNN
+F 1 "10u" V 6600 1000 50  0000 C CNN
+F 2 "local:SMD-POL-1206" H 6600 800 60  0001 C CNN
+F 3 "http://datasheets.avx.com/F93.pdf" H 6600 800 60  0001 C CNN
+F 4 "F931A106KAA" H 6600 800 60  0001 C CNN "MPN"
+F 5 "CAP TANT 10UF 10V 10% 1206" H 6600 800 60  0001 C CNN "Description"
+F 6 "Yes" H 6600 800 60  0001 C CNN "Included in BOM"
+	1    6600 800 
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

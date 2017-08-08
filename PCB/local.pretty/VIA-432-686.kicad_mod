@@ -1,0 +1,10 @@
+(module VIA-432-686 (layer F.Cu) (tedit 58D2B2D5)
+  (fp_text reference REF** (at 0 2.3) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VIA-432-686 (at 0 -2.4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.686 0.686) (drill 0.432) (layers *.Cu)
+    (zone_connect 2))
+)

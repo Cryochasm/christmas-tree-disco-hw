@@ -18,6 +18,10 @@ $CMP Diode
 D Diode
 $ENDCMP
 #
+$CMP Fuse
+D Overcurrent Protection
+$ENDCMP
+#
 $CMP Generic
 D Generic item to be added to BOM
 $ENDCMP

@@ -145,7 +145,7 @@ F 0 "U301" H 6300 5865 50  0000 C CNN
 F 1 "MC14504B" H 6300 5774 50  0000 C CNN
 F 2 "local:SOIC-16" H 6200 5800 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MC14504B-D.PDF" H 6300 6000 50  0001 C CNN
-F 4 "MC14504B" H 6300 6300 50  0001 C CNN "MPN"
+F 4 "MC14504BDG" H 6300 6300 50  0001 C CNN "MPN"
 F 5 "Voltage Level Translator Unidirectional Circuit 6 Channel 16-SOIC" H 6300 6100 50  0001 C CNN "Description"
 F 6 "Yes" H 6300 6200 50  0001 C CNN "Included in BOM"
 	1    6300 5300
@@ -335,29 +335,15 @@ Wire Wire Line
 Text Label 6900 5300 0    50   ~ 0
 GND
 $Comp
-L Capacitor C19
-U 1 1 598762EF
-P 6600 4600
-F 0 "C19" V 6554 4668 50  0000 L CNN
-F 1 "Capacitor" V 6645 4668 50  0000 L CNN
-F 2 "local:SMD-0805" H 6600 4600 60  0001 C CNN
-F 3 "" H 6600 4600 60  0001 C CNN
-F 4 "?" H 6600 4600 60  0001 C CNN "MPN"
-F 5 "?" H 6600 4600 60  0001 C CNN "Description"
-F 6 "Yes" H 6600 4600 60  0001 C CNN "Included in BOM"
-	1    6600 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Capacitor C18
 U 1 1 59876312
 P 6000 4600
 F 0 "C18" V 5954 4668 50  0000 L CNN
-F 1 "Capacitor" V 6045 4668 50  0000 L CNN
+F 1 "0.1u" V 6045 4668 50  0000 L CNN
 F 2 "local:SMD-0805" H 6000 4600 60  0001 C CNN
-F 3 "" H 6000 4600 60  0001 C CNN
-F 4 "?" H 6000 4600 60  0001 C CNN "MPN"
-F 5 "?" H 6000 4600 60  0001 C CNN "Description"
+F 3 "http://www.samsungsem.com/kr/support/library/product-catalog/mlcc.jsp" H 6000 4600 60  0001 C CNN
+F 4 "CL21B104KACWPNC" H 6000 4600 60  0001 C CNN "MPN"
+F 5 "0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)" H 6000 4600 60  0001 C CNN "Description"
 F 6 "Yes" H 6000 4600 60  0001 C CNN "Included in BOM"
 	1    6000 4600
 	1    0    0    -1  
@@ -375,4 +361,28 @@ Wire Wire Line
 Connection ~ 6300 4600
 Text Label 6300 4500 1    50   ~ 0
 GND
+Text Label 6600 3400 0    50   ~ 0
+GSCLK_3V3
+Text Label 7400 3000 0    50   ~ 0
+ERROR_RD_3V3
+Text Label 6400 3500 3    50   ~ 0
+DATA_3V3
+Text Label 6300 3500 3    50   ~ 0
+SCLK_3V3
+Text Label 6200 3500 3    50   ~ 0
+LAT_3V3
+$Comp
+L Capacitor C19
+U 1 1 59890F4A
+P 6600 4600
+F 0 "C19" V 6554 4668 50  0000 L CNN
+F 1 "0.1u" V 6645 4668 50  0000 L CNN
+F 2 "local:SMD-0805" H 6600 4600 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/library/product-catalog/mlcc.jsp" H 6600 4600 60  0001 C CNN
+F 4 "CL21B104KACWPNC" H 6600 4600 60  0001 C CNN "MPN"
+F 5 "0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)" H 6600 4600 60  0001 C CNN "Description"
+F 6 "Yes" H 6600 4600 60  0001 C CNN "Included in BOM"
+	1    6600 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
