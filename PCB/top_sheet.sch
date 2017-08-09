@@ -8,7 +8,7 @@ encoding utf-8
 Sheet 2 20
 Title "Christmas Tree Disco"
 Date "2017-08-08"
-Rev "01"
+Rev "V1.0"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""
@@ -35,7 +35,7 @@ $Comp
 L PCB_LABEL V1.0
 U 1 1 59822887
 P 5000 2100
-F 0 "V1.0" H 4900 2200 50  0000 L CNN
+F 0 "V1.0" H 5200 2200 50  0000 L CNN
 F 1 "www.github.com/Cryochasm" H 4500 2500 50  0000 L CNN
 F 2 "local:Cryochasm" H 5150 1900 60  0001 C CNN
 F 3 "-" H 5150 1900 60  0001 C CNN

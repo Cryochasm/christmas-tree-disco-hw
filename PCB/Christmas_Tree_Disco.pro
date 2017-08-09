@@ -1,4 +1,4 @@
-update=Tue 08 Aug 2017 09:23:08 PM MDT
+update=Wed 09 Aug 2017 10:12:32 AM MDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,6 +28,8 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.15
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=Cryochasm.kicad_wks
@@ -38,5 +40,3 @@ NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
-[general]
-version=1

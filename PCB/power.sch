@@ -8,7 +8,7 @@ encoding utf-8
 Sheet 20 20
 Title "Christmas Tree Disco"
 Date "2017-08-08"
-Rev "01"
+Rev "V1.0"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""
@@ -164,5 +164,33 @@ F 5 "CAP TANT 10UF 10V 10% 1206" H 4400 4300 60  0001 C CNN "Description"
 F 6 "Yes" H 4400 4300 60  0001 C CNN "Included in BOM"
 	1    4400 4300
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Generic H5
+U 1 1 598B2B86
+P 1300 4100
+F 0 "H5" H 1428 4146 50  0000 L CNN
+F 1 "Power Supply 12V 24W" H 1428 4055 50  0000 L CNN
+F 2 "local:Do_Not_Populate" H 1300 3900 50  0001 C CNN
+F 3 "http://www.cui.com/product/resource/digikeypdf/swi24-n.pdf" H 1300 4100 50  0001 C CNN
+F 4 "SWI24-12-N-P6" H 1300 3800 50  0001 C CNN "MPN"
+F 5 "12V 24W AC/DC External Wall Mount Adapter Fixed Blade Input " H 1300 3700 50  0001 C CNN "Description"
+F 6 "No" H 1300 3600 50  0001 C CNN "Included in BOM"
+	1    1300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Generic H6
+U 1 1 598B2F83
+P 1300 4700
+F 0 "H6" H 1428 4746 50  0000 L CNN
+F 1 "Power Info" H 1428 4655 50  0000 L CNN
+F 2 "local:Polarity" H 1300 4500 50  0001 C CNN
+F 3 "-" H 1300 4700 50  0001 C CNN
+F 4 "-" H 1300 4400 50  0001 C CNN "MPN"
+F 5 "-" H 1300 4300 50  0001 C CNN "Description"
+F 6 "No" H 1300 4200 50  0001 C CNN "Included in BOM"
+	1    1300 4700
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

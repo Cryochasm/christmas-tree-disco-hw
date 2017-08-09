@@ -8,7 +8,7 @@ encoding utf-8
 Sheet 1 20
 Title "Christmas Tree Disco"
 Date "2017-08-08"
-Rev "01"
+Rev "V1.0"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""

@@ -8,7 +8,7 @@ encoding utf-8
 Sheet 3 20
 Title "Christmas Tree Disco"
 Date "2017-08-08"
-Rev "01"
+Rev "V1.0"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""
@@ -110,10 +110,10 @@ Wire Wire Line
 Text Label 5300 3500 3    50   ~ 0
 GND
 $Comp
-L Generic H301
+L Generic H2
 U 1 1 5984BC75
 P 8500 1700
-F 0 "H301" H 8628 1746 50  0000 L CNN
+F 0 "H2" H 8628 1746 50  0000 L CNN
 F 1 "2x10 HEADER" H 8628 1655 50  0000 L CNN
 F 2 "local:2x10_header_3d" H 8500 1500 50  0001 C CNN
 F 3 "http://www.molex.com/pdm_docs/sd/015912200_sd.pdf" H 8500 1700 50  0001 C CNN
@@ -124,10 +124,10 @@ F 6 "Yes" H 8500 1200 50  0001 C CNN "Included in BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Generic H302
+L Generic H4
 U 1 1 5984BD4E
 P 8500 2000
-F 0 "H302" H 8628 2046 50  0000 L CNN
+F 0 "H4" H 8628 2046 50  0000 L CNN
 F 1 "2x10 HEADER" H 8628 1955 50  0000 L CNN
 F 2 "local:2x10_header_3d" H 8500 1800 50  0001 C CNN
 F 3 "http://www.molex.com/pdm_docs/sd/015912200_sd.pdf" H 8500 2000 50  0001 C CNN
@@ -138,10 +138,10 @@ F 6 "Yes" H 8500 1500 50  0001 C CNN "Included in BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MC14504B U301
+L MC14504B U4
 U 1 1 5984BDBB
 P 6300 5300
-F 0 "U301" H 6300 5865 50  0000 C CNN
+F 0 "U4" H 6300 5865 50  0000 C CNN
 F 1 "MC14504B" H 6300 5774 50  0000 C CNN
 F 2 "local:SOIC-16" H 6200 5800 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MC14504B-D.PDF" H 6300 6000 50  0001 C CNN
