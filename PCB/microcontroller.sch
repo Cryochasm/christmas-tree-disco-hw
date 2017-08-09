@@ -7,7 +7,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 20
 Title "Christmas Tree Disco"
-Date "2017-08-01"
+Date "2017-08-08"
 Rev "01"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
@@ -199,16 +199,10 @@ Wire Wire Line
 	6700 5200 6800 5200
 Wire Wire Line
 	6700 5400 7400 5400
-Wire Wire Line
-	7200 3000 7400 3000
-Wire Wire Line
-	7400 3000 7400 5400
 NoConn ~ 6800 5100
 NoConn ~ 6800 5200
 Wire Wire Line
-	6500 3300 6500 3400
-Wire Wire Line
-	6500 3400 7500 3400
+	6500 3300 6500 3500
 Wire Wire Line
 	7500 3400 7500 5700
 Wire Wire Line
@@ -218,25 +212,13 @@ Wire Wire Line
 Wire Wire Line
 	5500 5200 5500 4200
 Wire Wire Line
-	5500 4200 6400 4200
-Wire Wire Line
-	6400 4200 6400 3300
-Wire Wire Line
 	5900 5400 5400 5400
 Wire Wire Line
 	5400 5400 5400 4100
 Wire Wire Line
-	5400 4100 6300 4100
-Wire Wire Line
-	6300 4100 6300 3300
-Wire Wire Line
 	5900 5600 5300 5600
 Wire Wire Line
 	5300 5600 5300 4000
-Wire Wire Line
-	5300 4000 6200 4000
-Wire Wire Line
-	6200 4000 6200 3300
 Wire Wire Line
 	3800 2200 3700 2200
 Wire Wire Line
@@ -297,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 3300 5900 3400
 Wire Wire Line
-	6000 3300 6000 3400
+	6000 3300 6000 4000
 Wire Wire Line
 	6100 3300 6100 3400
 Wire Wire Line
@@ -328,7 +310,7 @@ NoConn ~ 5600 3400
 NoConn ~ 5700 3400
 NoConn ~ 5800 3400
 NoConn ~ 5900 3400
-NoConn ~ 6000 3400
+NoConn ~ 7300 3000
 NoConn ~ 6100 3400
 Wire Wire Line
 	6700 5300 6900 5300
@@ -361,15 +343,15 @@ Wire Wire Line
 Connection ~ 6300 4600
 Text Label 6300 4500 1    50   ~ 0
 GND
-Text Label 6600 3400 0    50   ~ 0
-GSCLK_3V3
-Text Label 7400 3000 0    50   ~ 0
-ERROR_RD_3V3
 Text Label 6400 3500 3    50   ~ 0
-DATA_3V3
+GSCLK_3V3
+Text Label 6500 3500 3    50   ~ 0
+ERROR_RD_3V3
 Text Label 6300 3500 3    50   ~ 0
-SCLK_3V3
+DATA_3V3
 Text Label 6200 3500 3    50   ~ 0
+SCLK_3V3
+Text Label 6000 3500 3    50   ~ 0
 LAT_3V3
 $Comp
 L Capacitor C19
@@ -385,4 +367,26 @@ F 6 "Yes" H 6600 4600 60  0001 C CNN "Included in BOM"
 	1    6600 4600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6400 3300 6400 3500
+Wire Wire Line
+	6400 3400 7500 3400
+Connection ~ 6400 3400
+Wire Wire Line
+	6500 3350 7400 3350
+Connection ~ 6500 3350
+Wire Wire Line
+	7400 3350 7400 5400
+Wire Wire Line
+	6300 3300 6300 4200
+Wire Wire Line
+	6300 4200 5500 4200
+Wire Wire Line
+	6200 3300 6200 4100
+Wire Wire Line
+	6200 4100 5400 4100
+Wire Wire Line
+	6000 4000 5300 4000
+Wire Wire Line
+	7300 3000 7200 3000
 $EndSCHEMATC

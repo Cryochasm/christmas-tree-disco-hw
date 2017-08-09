@@ -7,7 +7,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 20
 Title "Christmas Tree Disco"
-Date "2017-08-01"
+Date "2017-08-08"
 Rev "01"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
@@ -37,7 +37,7 @@ U 1 1 59822887
 P 5000 2100
 F 0 "V1.0" H 4900 2200 50  0000 L CNN
 F 1 "www.github.com/Cryochasm" H 4500 2500 50  0000 L CNN
-F 2 "local:PCB-LABEL" H 5150 1900 60  0001 C CNN
+F 2 "local:Cryochasm" H 5150 1900 60  0001 C CNN
 F 3 "-" H 5150 1900 60  0001 C CNN
 F 4 "-" H 5000 2100 60  0001 C CNN "MPN"
 F 5 "-" H 5000 2100 60  0001 C CNN "Description"
@@ -82,4 +82,18 @@ F 6 "No" H 6100 1500 50  0001 C CNN "Included in BOM"
 $EndComp
 Text Label 2900 2700 0    50   ~ 0
 ~~POWER[0..1]
+$Comp
+L Generic H1
+U 1 1 598A6860
+P 7200 2000
+F 0 "H1" H 7328 2046 50  0000 L CNN
+F 1 "LPRocket" H 7328 1955 50  0000 L CNN
+F 2 "local:LPRocket" H 7200 1800 50  0001 C CNN
+F 3 "-" H 7200 2000 50  0001 C CNN
+F 4 "-" H 7200 1600 50  0001 C CNN "Description"
+F 5 "-" H 7200 1700 50  0001 C CNN "MPN"
+F 6 "No" H 7200 1500 50  0001 C CNN "Included in BOM"
+	1    7200 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
