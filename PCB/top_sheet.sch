@@ -7,7 +7,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 20
 Title "Christmas Tree Disco"
-Date "2017-08-08"
+Date "2017-08-15"
 Rev "V1.0"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
@@ -94,6 +94,20 @@ F 4 "-" H 7200 1600 50  0001 C CNN "Description"
 F 5 "-" H 7200 1700 50  0001 C CNN "MPN"
 F 6 "No" H 7200 1500 50  0001 C CNN "Included in BOM"
 	1    7200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Generic H7
+U 1 1 59934D6E
+P 8000 2000
+F 0 "H7" H 8128 2046 50  0000 L CNN
+F 1 "SPFMDBC" H 8128 1955 50  0000 L CNN
+F 2 "local:Open_Source_HW_Logo" H 8000 1800 50  0001 C CNN
+F 3 "-" H 8000 2000 50  0001 C CNN
+F 4 "-" H 8000 1700 50  0001 C CNN "MPN"
+F 5 "-" H 8000 1600 50  0001 C CNN "Description"
+F 6 "No" H 8000 1500 50  0001 C CNN "Included in BOM"
+	1    8000 2000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
