@@ -18,16 +18,18 @@ Layer Stackup is specified in the Fab Assembly file.
 
 This section describes the function and purpose of the files.
 
-    Christmas_Tree_Disco-F.Cu.gtl             Top copper layer
-    Christmas_Tree_Disco-B.Cu.gbl             Bottom copper layer
-    Christmas_Tree_Disco-F.SilkS.gto          Top silkscreen layer
-    Christmas_Tree_Disco-B.SilkS.gbo          Bottom silkscreen layer
-    Christmas_Tree_Disco-F.Paste.gtp          Front solder paste layer
-    Christmas_Tree_Disco-B.Paste.gtb          Bottom solder paste layer
-    Christmas_Tree_Disco-F.Mask.gts           Top solder-mask layer
-    Christmas_Tree_Disco-B.Mask.gbs           Bottom solder-mask layer
-    Christmas_Tree_Disco-Edge.Cuts.gm1        Board outline
+    Christmas_Tree_Disco-B.Cu.gbr             Bottom copper layer
+    Christmas_Tree_Disco-B.Fab.gbr            Bottom assembly layer
+    Christmas_Tree_Disco-B.Mask.gbr           Bottom solder-mask layer
+    Christmas_Tree_Disco-B.Paste.gbr          Bottom solder paste layer
+    Christmas_Tree_Disco-B.SilkS.gbr          Bottom silkscreen layer
+    Christmas_Tree_Disco-Edge.Cuts.gbr        Board outline
+    Christmas_Tree_Disco-F.Cu.gbr             Top copper layer
     Christmas_Tree_Disco-F.Fab.gbr            Top assembly layer
-    Christmas_Tree_Disco-PTH.drl              Plated through hole drill file
+    Christmas_Tree_Disco-F.Mask.gbr           Top solder-mask layer
+    Christmas_Tree_Disco-F.Paste.gbr          Front solder paste layer
+    Christmas_Tree_Disco-F.SilkS.gbr          Top silkscreen layer
     Christmas_Tree_Disco-NPTH.drl             Non-plated through hole drill file
+    Christmas_Tree_Disco-PTH.drl              Plated through hole drill file
+    Christmas_Tree_Disco.d356                 IPC-D-356 Netlist File
     Christmas_Tree_Disco-all-pos.csv          Pick and Place locations file

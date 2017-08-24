@@ -7,7 +7,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 20
 Title "Christmas Tree Disco"
-Date "2017-08-15"
+Date "2017-08-23"
 Rev "V1.0"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
@@ -21,7 +21,7 @@ U 5980A64F
 F0 "RGB 00" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I R 3100 1600 50 
-F3 "~~POWER[0..1]" I L 1900 1600 50 
+F3 "~~POWER[0..2]" I L 1900 1600 50 
 $EndSheet
 $Comp
 L TLC5955DCA U2
@@ -67,7 +67,7 @@ U 59813FE2
 F0 "RGB 04" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I R 3100 1100 50 
-F3 "~~POWER[0..1]" I L 1900 1100 50 
+F3 "~~POWER[0..2]" I L 1900 1100 50 
 $EndSheet
 Wire Bus Line
 	4000 1100 4000 1500
@@ -99,7 +99,7 @@ U 59815F66
 F0 "RGB 05" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I R 3100 2100 50 
-F3 "~~POWER[0..1]" I L 1900 2100 50 
+F3 "~~POWER[0..2]" I L 1900 2100 50 
 $EndSheet
 $Sheet
 S 1900 3000 1200 200 
@@ -107,7 +107,7 @@ U 5981626D
 F0 "RGB 02" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I R 3100 3100 50 
-F3 "~~POWER[0..1]" I L 1900 3100 50 
+F3 "~~POWER[0..2]" I L 1900 3100 50 
 $EndSheet
 $Sheet
 S 1900 4000 1200 200 
@@ -115,7 +115,7 @@ U 59817074
 F0 "RGB 03" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I R 3100 4100 50 
-F3 "~~POWER[0..1]" I L 1900 4100 50 
+F3 "~~POWER[0..2]" I L 1900 4100 50 
 $EndSheet
 $Sheet
 S 1900 3500 1200 200 
@@ -123,7 +123,7 @@ U 59817078
 F0 "RGB 06" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I R 3100 3600 50 
-F3 "~~POWER[0..1]" I L 1900 3600 50 
+F3 "~~POWER[0..2]" I L 1900 3600 50 
 $EndSheet
 $Sheet
 S 1900 4500 1200 200 
@@ -131,7 +131,7 @@ U 5981707C
 F0 "RGB 07" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I R 3100 4600 50 
-F3 "~~POWER[0..1]" I L 1900 4600 50 
+F3 "~~POWER[0..2]" I L 1900 4600 50 
 $EndSheet
 Wire Bus Line
 	4000 1900 4000 2100
@@ -259,7 +259,7 @@ U 59825578
 F0 "RGB 01" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I R 3100 2600 50 
-F3 "~~POWER[0..1]" I L 1900 2600 50 
+F3 "~~POWER[0..2]" I L 1900 2600 50 
 $EndSheet
 Wire Bus Line
 	4000 2100 3100 2100
@@ -409,7 +409,7 @@ U 59837C41
 F0 "RGB 12" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I L 7800 1600 50 
-F3 "~~POWER[0..1]" I R 9000 1600 50 
+F3 "~~POWER[0..2]" I R 9000 1600 50 
 $EndSheet
 $Sheet
 S 7800 2000 1200 200 
@@ -417,7 +417,7 @@ U 598152C6
 F0 "RGB 09" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I L 7800 2100 50 
-F3 "~~POWER[0..1]" I R 9000 2100 50 
+F3 "~~POWER[0..2]" I R 9000 2100 50 
 $EndSheet
 $Sheet
 S 7800 2500 1200 200 
@@ -425,7 +425,7 @@ U 598152CA
 F0 "RGB 13" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I L 7800 2600 50 
-F3 "~~POWER[0..1]" I R 9000 2600 50 
+F3 "~~POWER[0..2]" I R 9000 2600 50 
 $EndSheet
 $Sheet
 S 7800 3000 1200 200 
@@ -433,7 +433,7 @@ U 59815DA2
 F0 "RGB 14" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I L 7800 3100 50 
-F3 "~~POWER[0..1]" I R 9000 3100 50 
+F3 "~~POWER[0..2]" I R 9000 3100 50 
 $EndSheet
 $Sheet
 S 7800 3500 1200 200 
@@ -441,7 +441,7 @@ U 59815DA6
 F0 "RGB 10" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I L 7800 3600 50 
-F3 "~~POWER[0..1]" I R 9000 3600 50 
+F3 "~~POWER[0..2]" I R 9000 3600 50 
 $EndSheet
 $Sheet
 S 7800 4000 1200 200 
@@ -449,7 +449,7 @@ U 59815DAA
 F0 "RGB 15" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I L 7800 4100 50 
-F3 "~~POWER[0..1]" I R 9000 4100 50 
+F3 "~~POWER[0..2]" I R 9000 4100 50 
 $EndSheet
 $Sheet
 S 7800 4500 1200 200 
@@ -457,7 +457,7 @@ U 598171EF
 F0 "RGB 11" 50
 F1 "rgb_led.sch" 50
 F2 "~~RGB[0..2]" I L 7800 4600 50 
-F3 "~~POWER[0..1]" I R 9000 4600 50 
+F3 "~~POWER[0..2]" I R 9000 4600 50 
 $EndSheet
 Wire Bus Line
 	7800 1600 6900 1600
@@ -570,11 +570,11 @@ Wire Wire Line
 Wire Wire Line
 	6100 1200 6200 1200
 Text HLabel 1300 7500 0    50   Input ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1300 7500 1400 7500
 Wire Bus Line
-	1400 7500 1400 7700
+	1400 7500 1400 7800
 Entry Wire Line
 	1400 7600 1500 7700
 Entry Wire Line
@@ -595,8 +595,6 @@ Text Label 6200 3800 0    50   ~ 0
 GND
 Text Label 6800 600  0    50   ~ 0
 GND
-Text Label 6800 1000 0    50   ~ 0
-5V
 Text HLabel 1300 6900 0    50   BiDi ~ 0
 ~~SHIFT_CTRL[0..4]
 Wire Bus Line
@@ -662,49 +660,49 @@ GSCLK
 Wire Bus Line
 	1900 4600 1800 4600
 Text Label 1800 4600 2    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1900 4100 1800 4100
 Text Label 1800 4100 2    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1900 3600 1800 3600
 Text Label 1800 3600 2    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1900 3100 1800 3100
 Text Label 1800 3100 2    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1900 2600 1800 2600
 Text Label 1800 2600 2    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1900 2100 1800 2100
 Text Label 1800 2100 2    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1900 1600 1800 1600
 Text Label 1800 1600 2    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1900 1100 1800 1100
 Text Label 1800 1100 2    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Text Label 9100 1600 0    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Text Label 9100 2100 0    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Text Label 9100 2600 0    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Text Label 9100 3100 0    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Text Label 9100 3600 0    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Text Label 9100 4100 0    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Text Label 9100 4600 0    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	9000 4600 9100 4600
 Wire Bus Line
@@ -742,4 +740,14 @@ F 6 "Yes" H 6600 800 60  0001 C CNN "Included in BOM"
 	1    6600 800 
 	0    1    1    0   
 $EndComp
+Entry Wire Line
+	1400 7800 1500 7900
+Text Label 1500 7900 0    50   ~ 0
+~~POWER2
+Wire Wire Line
+	1500 7900 1900 7900
+Text Label 1900 7900 0    50   ~ 0
+3V3
+Text Label 6800 1000 0    50   ~ 0
+3V3
 $EndSCHEMATC

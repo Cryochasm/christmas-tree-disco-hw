@@ -1,6 +1,6 @@
 Reference, Quantity, Value, Footprint, Datasheet, MPN, Description, Included in BOM
+C0 C1 C10 C11 C12 C13 C14 C15 C2 C3 C4 C5 C6 C7 C9 ,15,"0.1u","local:SMD-0805","http://www.samsungsem.com/kr/support/library/product-catalog/mlcc.jsp","CL21B104KACWPNC","0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)","Yes"
 C16 C17 C8 ,3,"10u","local:SMD-POL-1206","http://datasheets.avx.com/F93.pdf","F931A106KAA","CAP TANT 10UF 10V 10% 1206","Yes"
-C0 C1 C10 C11 C12 C13 C14 C15 C18 C19 C2 C3 C4 C5 C6 C7 C9 ,17,"0.1u","local:SMD-0805","http://www.samsungsem.com/kr/support/library/product-catalog/mlcc.jsp","CL21B104KACWPNC","0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)","Yes"
 D0 D1 D10 D11 D12 D13 D14 D15 D2 D3 D4 D5 D6 D7 D9 ,15,"RGB LED","local:T-1_5mm","https://media.digikey.com/pdf/Data%20Sheets/Kingbright%20PDFs/WP154A4SEJ3VBDZGW-CA_Ver.1A_Jul-24-13.pdf"," WP154A4SEJ3VBDZGW/CA","Red, Green, Blue (RGB) 625nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.2V Red, 3.3V Green, 3.3V Blue Radial","Yes"
 D8 ,1,"SMBJ22D-M3/H","local:DO-214AA","http://www.vishay.com/docs/87606/87606.pdf","SMBJ22D-M3/H","TVS DIODE 22VWM 35.1VC DO214AA","Yes"
 F1 ,1,"24V 3A","local:SMD-2920","http://www.bourns.com/docs/Product-Datasheets/mflsmf.pdf","MF-LSMF300/24X-2","Polymeric PTC Resettable Fuse 24V Ih Surface Mount 2920 (7351 Metric), Concave","Yes"
@@ -14,5 +14,4 @@ J1 ,1,"PJ-006B-SMT-TR","local:PJ-006B-SMT","http://www.cui.com/product/resource/
 U1 ,1,"DEV_KIT_EK-TM4C123GXL","local:DEV_KIT_EK-TM4C123GXL","http://www.ti.com/lit/ds/spms376e/spms376e.pdf","EK-TM4C123GXL","Development Boards & Kits - ARM TIVA LaunchPAD","No"
 U2 ,1,"TLC5955DCA","local:HTSSOP-56_14x6.1","http://www.ti.com/lit/ds/symlink/tlc5955.pdf","TLC5955DCAR","LED Driver IC 48 Output Linear Analog Dimming 30mA 56-HTSSOP","Yes"
 U3 ,1,"LM1085-5.0","local:TO-263","http://www.ti.com/lit/ds/symlink/lm1085.pdf","LM1085ISX-5.0/NOPB","Linear Voltage Regulator IC Positive Fixed Output 5V 3A DDPAK/TO-263-3","Yes"
-U4 ,1,"MC14504B","local:SOIC-16","http://www.onsemi.com/pub/Collateral/MC14504B-D.PDF","MC14504BDG","Voltage Level Translator Unidirectional Circuit 6 Channel 16-SOIC","Yes"
 V1.0 ,1,"www.github.com/Cryochasm","local:Cryochasm","-","-","-","No"

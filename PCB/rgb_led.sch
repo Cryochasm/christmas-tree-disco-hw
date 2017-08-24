@@ -5,9 +5,9 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 19 20
+Sheet 11 20
 Title "Christmas Tree Disco"
-Date "2017-08-15"
+Date "2017-08-23"
 Rev "V1.0"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
@@ -35,7 +35,7 @@ AR Path="/59809489/5980966C/59815DA6/5980D97F" Ref="D10"  Part="1"
 AR Path="/59809489/5980966C/59815DAA/5980D97F" Ref="D15"  Part="1" 
 AR Path="/59809489/5980966C/598171EF/5980D97F" Ref="D11"  Part="1" 
 AR Path="/59809489/5980966C/59837C41/5980D97F" Ref="D12"  Part="1" 
-F 0 "D11" V 5354 3622 50  0000 L CNN
+F 0 "D7" V 5354 3622 50  0000 L CNN
 F 1 "RGB LED" V 5445 3622 50  0000 L CNN
 F 2 "local:T-1_5mm" H 5450 3300 60  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kingbright%20PDFs/WP154A4SEJ3VBDZGW-CA_Ver.1A_Jul-24-13.pdf" H 5450 3300 60  0001 C CNN
@@ -50,7 +50,7 @@ Wire Wire Line
 Text HLabel 1100 2900 0    50   Input ~ 0
 ~~RGB[0..2]
 Text HLabel 1100 2400 0    50   Input ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1100 2400 1200 2400
 Wire Bus Line
@@ -141,7 +141,7 @@ AR Path="/59809489/5980966C/59815DA2/59893093" Ref="C14"  Part="1"
 AR Path="/59809489/5980966C/59815DA6/59893093" Ref="C10"  Part="1" 
 AR Path="/59809489/5980966C/59815DAA/59893093" Ref="C15"  Part="1" 
 AR Path="/59809489/5980966C/598171EF/59893093" Ref="C11"  Part="1" 
-F 0 "C11" V 4554 3368 50  0000 L CNN
+F 0 "C7" V 4554 3368 50  0000 L CNN
 F 1 "0.1u" V 4645 3368 50  0000 L CNN
 F 2 "local:SMD-0805" H 4600 3300 60  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/library/product-catalog/mlcc.jsp" H 4600 3300 60  0001 C CNN

@@ -7,7 +7,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 20
 Title "Christmas Tree Disco"
-Date "2017-08-15"
+Date "2017-08-23"
 Rev "V1.0"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
@@ -20,7 +20,7 @@ S 3500 2600 2500 2600
 U 598094B7
 F0 "Microcontroller" 60
 F1 "microcontroller.sch" 60
-F2 "~~POWER[0..1]" I L 3500 2700 50 
+F2 "~~POWER[0..2]" I L 3500 2700 50 
 F3 "~~SHIFT_CTRL[0..4]" B R 6000 5000 50 
 $EndSheet
 $Sheet
@@ -28,7 +28,7 @@ S 6600 2600 2300 2600
 U 5980966C
 F0 "RGB LED Array" 60
 F1 "rgb_led_array.sch" 60
-F2 "~~POWER[0..1]" I L 6600 2700 50 
+F2 "~~POWER[0..2]" I L 6600 2700 50 
 F3 "~~SHIFT_CTRL[0..4]" B L 6600 5000 50 
 $EndSheet
 $Comp
@@ -50,7 +50,7 @@ S 1200 2600 1700 2600
 U 5984D7F4
 F0 "Power Supply" 50
 F1 "power.sch" 50
-F2 "~~POWER[0..1]" I R 2900 2700 50 
+F2 "~~POWER[0..2]" I R 2900 2700 50 
 $EndSheet
 Wire Bus Line
 	2900 2700 3500 2700
@@ -63,7 +63,7 @@ Wire Bus Line
 Wire Bus Line
 	6100 2700 6600 2700
 Text Label 3600 2400 0    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	6000 5000 6600 5000
 $Comp
@@ -81,7 +81,7 @@ F 6 "No" H 6100 1500 50  0001 C CNN "Included in BOM"
 	1    0    0    -1  
 $EndComp
 Text Label 2900 2700 0    50   ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 $Comp
 L Generic H1
 U 1 1 598A6860

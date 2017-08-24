@@ -7,7 +7,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 20 20
 Title "Christmas Tree Disco"
-Date "2017-08-15"
+Date "2017-08-23"
 Rev "V1.0"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
@@ -95,7 +95,7 @@ Connection ~ 4400 4500
 Wire Wire Line
 	3200 4500 6100 4500
 Text HLabel 1200 7500 0    50   Input ~ 0
-~~POWER[0..1]
+~~POWER[0..2]
 Wire Bus Line
 	1200 7500 1300 7500
 Wire Bus Line
@@ -193,4 +193,18 @@ F 6 "No" H 1300 4200 50  0001 C CNN "Included in BOM"
 	1    1300 4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L PWR_FLAG #P01
+U 1 1 599D31CA
+P 3700 3900
+F 0 "#P01" H 3700 4050 50  0001 C CNN
+F 1 "PWR_FLAG" H 3778 3894 50  0000 L CNN
+F 2 "" H 3700 3900 50  0001 C CNN
+F 3 "" H 3700 3900 50  0001 C CNN
+	1    3700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4000 3700 4100
+Connection ~ 3700 4100
 $EndSCHEMATC
