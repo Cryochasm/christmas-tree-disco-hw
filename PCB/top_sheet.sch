@@ -7,8 +7,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 20
 Title "Christmas Tree Disco"
-Date "2017-08-23"
-Rev "V1.0"
+Date "2017-09-10"
+Rev "V1.1"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""
@@ -32,10 +32,10 @@ F2 "~~POWER[0..2]" I L 6600 2700 50
 F3 "~~SHIFT_CTRL[0..4]" B L 6600 5000 50 
 $EndSheet
 $Comp
-L PCB_LABEL V1.0
+L PCB_LABEL V1.1
 U 1 1 59822887
 P 5000 2100
-F 0 "V1.0" H 5200 2200 50  0000 L CNN
+F 0 "V1.1" H 5200 2200 50  0000 L CNN
 F 1 "www.github.com/Cryochasm" H 4500 2500 50  0000 L CNN
 F 2 "local:Cryochasm" H 5150 1900 60  0001 C CNN
 F 3 "-" H 5150 1900 60  0001 C CNN
@@ -48,8 +48,8 @@ $EndComp
 $Sheet
 S 1200 2600 1700 2600
 U 5984D7F4
-F0 "Power Supply" 50
-F1 "power.sch" 50
+F0 "Power Supply" 60
+F1 "power.sch" 60
 F2 "~~POWER[0..2]" I R 2900 2700 50 
 $EndSheet
 Wire Bus Line

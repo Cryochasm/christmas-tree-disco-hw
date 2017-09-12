@@ -7,8 +7,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 11 20
 Title "Christmas Tree Disco"
-Date "2017-08-23"
-Rev "V1.0"
+Date "2017-09-10"
+Rev "V1.1"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""

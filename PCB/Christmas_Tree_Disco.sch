@@ -7,8 +7,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 20
 Title "Christmas Tree Disco"
-Date "2017-08-23"
-Rev "V1.0"
+Date "2017-09-10"
+Rev "V1.1"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""
@@ -25,8 +25,8 @@ Text Notes 800  1100 0    200  Italic 40
 Christmas Tree Disco
 Text Notes 1000 1400 0    50   ~ 0
 Revisions:
-Text Notes 1000 1500 0    50   ~ 0
-8/23/2017 Initial Design
+Text Notes 1000 1600 0    50   ~ 0
+8/23/2017 Initial Design\n9/10/2017 Footprint Updates
 $Bitmap
 Pos 9900 6100
 Scale 0.750000

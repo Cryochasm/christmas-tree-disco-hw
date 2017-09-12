@@ -7,8 +7,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 20
 Title "Christmas Tree Disco"
-Date "2017-08-23"
-Rev "V1.0"
+Date "2017-09-10"
+Rev "V1.1"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""
@@ -732,7 +732,7 @@ U 1 1 59893C97
 P 6600 800
 F 0 "C16" V 6500 1100 50  0000 R CNN
 F 1 "10u" V 6600 1000 50  0000 C CNN
-F 2 "local:SMD-POL-1206" H 6600 800 60  0001 C CNN
+F 2 "local:SMD-TANT-1206" H 6600 800 60  0001 C CNN
 F 3 "http://datasheets.avx.com/F93.pdf" H 6600 800 60  0001 C CNN
 F 4 "F931A106KAA" H 6600 800 60  0001 C CNN "MPN"
 F 5 "CAP TANT 10UF 10V 10% 1206" H 6600 800 60  0001 C CNN "Description"

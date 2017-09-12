@@ -29,7 +29,6 @@ This section describes the function and purpose of the files.
     Christmas_Tree_Disco-F.Mask.gbr           Top solder-mask layer
     Christmas_Tree_Disco-F.Paste.gbr          Front solder paste layer
     Christmas_Tree_Disco-F.SilkS.gbr          Top silkscreen layer
-    Christmas_Tree_Disco-NPTH.drl             Non-plated through hole drill file
     Christmas_Tree_Disco-PTH.drl              Plated through hole drill file
     Christmas_Tree_Disco.d356                 IPC-D-356 Netlist File
     Christmas_Tree_Disco-all-pos.csv          Pick and Place locations file
