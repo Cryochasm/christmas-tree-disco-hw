@@ -1,14 +1,14 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:local
 LIBS:Christmas_Tree_Disco-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 20
+Sheet 3 19
 Title "Christmas Tree Disco"
-Date "2017-09-10"
-Rev "V1.1"
+Date "2017-09-20"
+Rev "V2"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""
@@ -16,7 +16,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DEV_KIT_EK-TM4C123GXL U1
+L local:DEV_KIT_EK-TM4C123GXL U1
 U 1 1 59812138
 P 5500 2500
 F 0 "U1" H 5500 3687 50  0000 C CNN
@@ -25,7 +25,7 @@ F 2 "local:DEV_KIT_EK-TM4C123GXL" V 6050 1500 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/spms376e/spms376e.pdf" V 6050 1500 60  0001 C CNN
 F 4 "EK-TM4C123GXL" H 5500 2500 60  0001 C CNN "MPN"
 F 5 "Development Boards & Kits - ARM TIVA LaunchPAD" H 5500 2500 60  0001 C CNN "Description"
-F 6 "No" H 5500 2500 60  0001 C CNN "Included in BOM"
+F 6 "Fit" H 5500 2500 60  0001 C CNN "Config"
 	1    5500 2500
 	1    0    0    -1  
 $EndComp
@@ -99,10 +99,10 @@ Text Label 1500 7400 0    50   ~ 0
 ~~SHIFT_CTRL4
 Text Label 7400 2100 0    50   ~ 0
 GND
-Text Label 5400 3500 3    50   ~ 0
+Text Label 5400 4400 3    50   ~ 0
 5V
 Wire Wire Line
-	5400 3300 5400 3500
+	5400 3300 5400 4400
 Wire Wire Line
 	5300 3300 5300 3500
 Wire Wire Line
@@ -110,7 +110,7 @@ Wire Wire Line
 Text Label 5300 3500 3    50   ~ 0
 GND
 $Comp
-L Generic H2
+L local:Generic H2
 U 1 1 5984BC75
 P 8500 1700
 F 0 "H2" H 8628 1746 50  0000 L CNN
@@ -119,12 +119,12 @@ F 2 "local:2x10_header_3d" H 8500 1500 50  0001 C CNN
 F 3 "http://www.molex.com/pdm_docs/sd/015912200_sd.pdf" H 8500 1700 50  0001 C CNN
 F 4 "0015912200" H 8500 1400 50  0001 C CNN "MPN"
 F 5 "20 Positions Header, Breakaway Connector 0.100\" (2.54mm) Surface Mount Tin" H 8500 1300 50  0001 C CNN "Description"
-F 6 "Yes" H 8500 1200 50  0001 C CNN "Included in BOM"
+F 6 "Fit" H 8500 1200 50  0001 C CNN "Config"
 	1    8500 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Generic H4
+L local:Generic H4
 U 1 1 5984BD4E
 P 8500 2000
 F 0 "H4" H 8628 2046 50  0000 L CNN
@@ -133,7 +133,7 @@ F 2 "local:2x10_header_3d" H 8500 1800 50  0001 C CNN
 F 3 "http://www.molex.com/pdm_docs/sd/015912200_sd.pdf" H 8500 2000 50  0001 C CNN
 F 4 "0015912200" H 8500 1700 50  0001 C CNN "MPN"
 F 5 "20 Positions Header, Breakaway Connector 0.100\" (2.54mm) Surface Mount Tin" H 8500 1600 50  0001 C CNN "Description"
-F 6 "Yes" H 8500 1500 50  0001 C CNN "Included in BOM"
+F 6 "Fit" H 8500 1500 50  0001 C CNN "Config"
 	1    8500 2000
 	1    0    0    -1  
 $EndComp
@@ -142,7 +142,7 @@ Text Label 3600 2100 2    50   ~ 0
 Wire Wire Line
 	3800 2100 3600 2100
 Wire Wire Line
-	6500 3300 6500 3500
+	6500 3300 6500 3400
 Wire Wire Line
 	3800 2200 3700 2200
 Wire Wire Line
@@ -219,7 +219,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 3300 5100 3400
 Wire Wire Line
-	5200 3300 5200 3400
+	5200 3300 5200 3500
 NoConn ~ 4500 3400
 NoConn ~ 4600 3400
 NoConn ~ 4700 3400
@@ -227,23 +227,22 @@ NoConn ~ 4800 3400
 NoConn ~ 4900 3400
 NoConn ~ 5000 3400
 NoConn ~ 5100 3400
-NoConn ~ 5200 3400
 NoConn ~ 5600 3400
 NoConn ~ 5700 3400
 NoConn ~ 7300 3000
 NoConn ~ 6100 3400
 Text Label 5900 3500 3    50   ~ 0
 GSCLK
-Text Label 6500 3500 3    50   ~ 0
+Text Label 6200 3500 3    50   ~ 0
 ERROR_RD
 Text Label 6300 3500 3    50   ~ 0
 DATA
 Text Label 5800 3500 3    50   ~ 0
 SCLK
-Text Label 6400 3500 3    50   ~ 0
+Text Label 5200 3500 3    50   ~ 0
 LAT
 Wire Wire Line
-	6400 3300 6400 3500
+	6400 3300 6400 3400
 Wire Wire Line
 	6300 3300 6300 3500
 Wire Wire Line
@@ -257,9 +256,24 @@ Wire Wire Line
 Text Label 1500 7900 0    50   ~ 0
 ~~POWER2
 Wire Wire Line
-	6200 3300 6200 3400
+	6200 3300 6200 3500
 Wire Wire Line
 	6000 3300 6000 3400
-NoConn ~ 6200 3400
 NoConn ~ 6000 3400
+NoConn ~ 6400 3400
+NoConn ~ 6500 3400
+$Comp
+L local:PWR_FLAG #P01
+U 1 1 5A202462
+P 5200 4300
+F 0 "#P01" H 5200 4450 50  0001 C CNN
+F 1 "PWR_FLAG" H 5278 4294 50  0000 L CNN
+F 2 "" H 5200 4300 50  0001 C CNN
+F 3 "" H 5200 4300 50  0001 C CNN
+	1    5200 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4300 5400 4300
+Connection ~ 5400 4300
 $EndSCHEMATC

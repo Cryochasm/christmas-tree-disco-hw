@@ -1,14 +1,14 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:local
 LIBS:Christmas_Tree_Disco-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 11 20
+Sheet 13 19
 Title "Christmas Tree Disco"
-Date "2017-09-10"
-Rev "V1.1"
+Date "2017-09-20"
+Rev "V2"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""
@@ -16,7 +16,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED_RGB_Common_Anode D0
+L local:LED_RGB_Common_Anode D0
 U 1 1 5980D97F
 P 5400 3300
 AR Path="/59809489/5980966C/5980A64F/5980D97F" Ref="D0"  Part="1" 
@@ -35,18 +35,18 @@ AR Path="/59809489/5980966C/59815DA6/5980D97F" Ref="D10"  Part="1"
 AR Path="/59809489/5980966C/59815DAA/5980D97F" Ref="D15"  Part="1" 
 AR Path="/59809489/5980966C/598171EF/5980D97F" Ref="D11"  Part="1" 
 AR Path="/59809489/5980966C/59837C41/5980D97F" Ref="D12"  Part="1" 
-F 0 "D7" V 5354 3622 50  0000 L CNN
+F 0 "D12" V 5354 3622 50  0000 L CNN
 F 1 "RGB LED" V 5445 3622 50  0000 L CNN
 F 2 "local:T-1_5mm" H 5450 3300 60  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kingbright%20PDFs/WP154A4SEJ3VBDZGW-CA_Ver.1A_Jul-24-13.pdf" H 5450 3300 60  0001 C CNN
 F 4 " WP154A4SEJ3VBDZGW/CA" H 5400 3300 60  0001 C CNN "MPN"
 F 5 "Red, Green, Blue (RGB) 625nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.2V Red, 3.3V Green, 3.3V Blue Radial" H 5400 3300 60  0001 C CNN "Description"
-F 6 "Yes" H 5400 3300 60  0001 C CNN "Included in BOM"
+F 6 "Fit" H 5400 3300 60  0001 C CNN "Config"
 	1    5400 3300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5400 3000 5400 3200
+	5400 3000 5400 3100
 Text HLabel 1100 2900 0    50   Input ~ 0
 ~~RGB[0..2]
 Text HLabel 1100 2400 0    50   Input ~ 0
@@ -54,11 +54,7 @@ Text HLabel 1100 2400 0    50   Input ~ 0
 Wire Bus Line
 	1100 2400 1200 2400
 Wire Bus Line
-	1200 2400 1200 2600
-Wire Bus Line
 	1100 2900 1200 2900
-Wire Bus Line
-	1200 2900 1200 3200
 Entry Wire Line
 	1200 2500 1300 2600
 Entry Wire Line
@@ -123,7 +119,7 @@ Wire Wire Line
 Text Label 4600 3500 3    50   ~ 0
 GND
 $Comp
-L Capacitor C4
+L local:Capacitor C4
 U 1 1 59893093
 P 4600 3300
 AR Path="/59809489/5980966C/59813FE2/59893093" Ref="C4"  Part="1" 
@@ -141,14 +137,20 @@ AR Path="/59809489/5980966C/59815DA2/59893093" Ref="C14"  Part="1"
 AR Path="/59809489/5980966C/59815DA6/59893093" Ref="C10"  Part="1" 
 AR Path="/59809489/5980966C/59815DAA/59893093" Ref="C15"  Part="1" 
 AR Path="/59809489/5980966C/598171EF/59893093" Ref="C11"  Part="1" 
-F 0 "C7" V 4554 3368 50  0000 L CNN
+F 0 "C12" V 4554 3368 50  0000 L CNN
 F 1 "0.1u" V 4645 3368 50  0000 L CNN
 F 2 "local:SMD-0805" H 4600 3300 60  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/library/product-catalog/mlcc.jsp" H 4600 3300 60  0001 C CNN
 F 4 "CL21B104KACWPNC" H 4600 3300 60  0001 C CNN "MPN"
 F 5 "0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)" H 4600 3300 60  0001 C CNN "Description"
-F 6 "Yes" H 4600 3300 60  0001 C CNN "Included in BOM"
+F 6 "Fit" H 4600 3300 60  0001 C CNN "Config"
 	1    4600 3300
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5400 3100 5400 3200
+Wire Bus Line
+	1200 2400 1200 2600
+Wire Bus Line
+	1200 2900 1200 3200
 $EndSCHEMATC

@@ -1,14 +1,14 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:local
 LIBS:Christmas_Tree_Disco-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 20
+Sheet 1 19
 Title "Christmas Tree Disco"
-Date "2017-09-10"
-Rev "V1.1"
+Date "2017-09-20"
+Rev "V2"
 Comp "www.GitHub.com/Cryochasm"
 Comment1 ""
 Comment2 ""
@@ -25,8 +25,8 @@ Text Notes 800  1100 0    200  Italic 40
 Christmas Tree Disco
 Text Notes 1000 1400 0    50   ~ 0
 Revisions:
-Text Notes 1000 1600 0    50   ~ 0
-8/23/2017 Initial Design\n9/10/2017 Footprint Updates
+Text Notes 1000 1650 0    50   ~ 0
+8/23/2017 V1 Initial Design\n9/10/2017 DFM Footprint Updates\n11/30/2017 V2 Changes, Removed Power Supply, Added Background LED
 $Bitmap
 Pos 9900 6100
 Scale 0.750000

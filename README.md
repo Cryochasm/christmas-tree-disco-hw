@@ -6,6 +6,10 @@ shift register and RGB LEDs. Compatable with the
 430BOOST-C55AUDIO1 booster pack for the possibilty of timing 
 the lights to music.
 
+## Dependancies
+* KiCAD nightly build
+* KiBOM
+
 ## Folder Structure:  
 - ***/PCB/***  
    Main Project: Christmas_Tree_Disco.pro  

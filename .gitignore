@@ -18,4 +18,5 @@ _autosave-*
 
 # Exported BOM files
 *.xml
-/PCB/Christmas_Tree_Disco_BOM.csv
+/PCB/Christmas_Tree_Disco_BOM*.csv
+*.v4

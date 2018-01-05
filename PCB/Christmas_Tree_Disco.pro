@@ -1,14 +1,9 @@
-update=9/11/2017 9:32:59 PM
+update=1/5/2018 4:12:30 AM
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=local
 [pcbnew]
 version=1
 PageLayoutDescrFile=Cryochasm.kicad_wks
@@ -28,8 +23,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.15
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=Cryochasm.kicad_wks
@@ -40,3 +33,11 @@ NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
+[general]
+version=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=local
+LibName2=Christmas_Tree_Disco-cache
